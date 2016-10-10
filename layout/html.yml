@@ -14,7 +14,7 @@ content:
         innerHTML:
           title:
             type: title
-            innerHTML: Plugin demo - wf/account2
+            innerHTML: Plugin demo - wf/editor
           bootstrap:
             type: widget
             data:
