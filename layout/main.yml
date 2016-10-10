@@ -1,0 +1,6 @@
+settings:
+  path: main/innerHTML
+content:
+  main:
+    type: div
+    innerHTML: main...

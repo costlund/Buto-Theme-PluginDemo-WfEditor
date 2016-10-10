@@ -1,0 +1,50 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  div:
+    type: div
+    attribute:
+      class: container
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: jumbotron
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: container
+            innerHTML:
+              -
+                type: h1
+                innerHTML: 'Plugin demo - wf/editor'
+              -
+                type: p
+                innerHTML: 'This is a demo of plugin wf/editor. One could build a theme in the browser with this :-)'
+              -
+                type: p
+                innerHTML:
+                  -
+                    type: a
+                    attribute:
+                      class: 'btn btn-primary btn-lg'
+                      role: button
+                      href: /editor/desktop
+                    innerHTML: 'Go to editor'
+              -
+                type: div
+                attribute:
+                  class: 'alert alert-warning'
+                  role: alert
+                innerHTML:
+                  172829598557fbba1eb9c8f543439567:
+                    type: strong
+                    innerHTML: 'Warning:'
+                    attribute:
+                      class: string
+                  94568725057fbbab7c7e9f813489093:
+                    type: span
+                    innerHTML: 'Do not publish these theme without edit setting "plugin_modules/editor/secure" param.'

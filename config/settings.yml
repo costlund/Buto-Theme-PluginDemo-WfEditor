@@ -1,0 +1,18 @@
+plugin_modules:
+  p:
+    plugin: 'wf/doc'
+  editor:
+    plugin: 'wf/editor'
+    secure:
+      visitor:
+        '*': false
+        
+default_class: p
+default_method: home
+
+dump: true
+
+plugin:
+  twitter:
+    bootstrap335v:
+      enabled: true

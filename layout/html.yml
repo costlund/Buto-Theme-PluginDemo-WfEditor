@@ -1,0 +1,26 @@
+settings:
+  path: 'html/innerHTML/body/innerHTML'
+  
+  
+content:
+  doctype:
+    type: text
+    text: '<!DOCTYPE html>'
+  html:
+    type: html
+    innerHTML:
+      head:
+        type: head
+        innerHTML:
+          title:
+            type: title
+            innerHTML: Plugin demo - wf/account2
+          bootstrap:
+            type: widget
+            data:
+              plugin: 'twitter/bootstrap335v'
+              method: all            
+              
+      body:
+        type: body
+        innerHTML: 'body...'
