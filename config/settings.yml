@@ -12,7 +12,7 @@ default_method: home
 
 dump: true
 
-plugin:
+pluginzzz:
   twitter:
     bootstrap335v:
       enabled: true
